@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/beer"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/simple_themloaibia"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/txtAddIdCategory"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        android:hint="@string/simple_maloai"
+        />
+
+    <EditText
+        android:id="@+id/edtAddNameCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        android:inputType="textAutoComplete"
+        android:hint="Tên loại" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnEditCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/simple_update"
+            android:textColorHint="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnAddCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:hint="@string/simple_add"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDelCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/simple_del"
+            android:textColorHint="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        android:hint="@string/simple_list"/>
+
+
+    <ListView
+        android:id="@+id/lvAddCategory"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

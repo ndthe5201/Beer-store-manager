@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DaiLyBia</string>
+    <string name="simple_add">Add</string>
+    <string name="simple_update">Update</string>
+    <string name="simple_del">Delete</string>
+    <string name="simple_edit">Edit</string>
+    <string name="simple_username">User</string>
+    <string name="simple_password">Password</string>
+    <string name="simple_btnLogin">Login</string>
+    <string name="simple_themloaibia">Add type</string>
+    <string name="simple_maloai">Id</string>
+    <string name="simple_moneyProduct">Price</string>
+    <string name="simple_thetich">Volume</string>
+    <string name="simple_nhasanxuat">Producer</string>
+    <string name="simple_loai">Type</string>
+    <string name="simple_idProduct">Id Product</string>
+    <string name="simple_nameCategory">Name type</string>
+    <string name="simple_idCategory">Code type</string>
+    <string name="simple_thembia">Add Beer</string>
+    <string name="simple_nameProduct">Name product</string>
+    <string name="simple_listProduct">List Product</string>
+    <string name="simple_login">Wellcome!</string>
+    <string name="simple_detailproduct">Detail Product</string>
+    <string name="simple_addProduct">Add Product</string>
+    <string name="simple_addCategory">Add Type</string>
+    <string name="simple_exit">Back</string>
+</resources>
